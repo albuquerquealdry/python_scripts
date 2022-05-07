@@ -1,6 +1,7 @@
 import os
 
-env = "JOB_NAME"
+env = "prometheus"
 
 
-print ("echo {}".format(env))
+os.system("git clone https://github.com/albuquerquealdry/{}.git".format(env))
+os.sytem("cd {} && cat READNE.md".format(env))
