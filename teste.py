@@ -3,4 +3,4 @@ import os
 env = "${JOB_NAME}"
 
 
-print ("echo ${}".format(env))
+print ("echo {}".format(env))
