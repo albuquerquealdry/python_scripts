@@ -1,6 +1,6 @@
 import os
 
-env = "${env.JOB_NAME}"
+env = "JOB_NAME"
 
 
 print ("echo {}".format(env))
